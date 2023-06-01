@@ -79,10 +79,16 @@ label {
 
 @media screen and (max-width: 768px) {
     .bg-content img{
-        width: 300px;
+        width: 400px;
     }
 
     label {
+        width: 20rem;
+    }
+
+    .sub {
         width: 10rem;
+        font-size: 15px;
+
     }
 }
