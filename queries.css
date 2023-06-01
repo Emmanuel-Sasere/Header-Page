@@ -81,4 +81,8 @@ label {
     .bg-content img{
         width: 300px;
     }
+
+    label {
+        width: 20rem;
+    }
 }
