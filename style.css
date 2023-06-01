@@ -1,0 +1,191 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header {
+    
+    height: 100vh;
+    background-color: white;
+}
+.container {
+    max-width: 110rem;
+    margin: auto;
+    padding: 0 2rem;
+}
+
+.content {
+    background:url('image/bg\ layer.jpg');
+    position: relative;
+    width: 100%;
+    height: 90%;
+    border-radius: 20px;
+}
+
+.layer {
+    background-color: rgba(205, 204, 201, 0.946);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.navbar {
+    width: 100%;
+    height: 10%;
+    padding:  15px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    border-radius: 5px 5px  0px  0px;
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul li {
+    margin-left: 20px;
+    font-size: 15px;
+    font-weight: 600;
+
+    
+}
+a {
+    color: rgb(0, 19, 0);
+}
+a:hover {
+    color: rgb(6, 118, 6);
+}
+
+
+
+.destop-btn {
+    padding: 10px;
+    border-radius: 30px;
+    border: 1px solid rgb(23, 38, 1);
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.destop-btn:hover {
+    background-color: rgb(8, 79, 8);
+    color: white;
+    transition: 2s;
+}
+
+.motivation {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.motivation h1 {
+    font-size: 55px;
+    margin-top: 20px;
+    color: rgb(0, 11, 0);
+    
+}
+
+.motivation p {
+    font-size: 16px;
+    margin-top: 20px;
+    color: rgb(1, 24, 1);
+}
+
+.content-btn {
+    padding: 15px;
+    border-radius: 20px;
+    font-size: 13px;
+    margin-top: 20px;
+    background-color: rgb(3, 80, 3);
+    color: white;
+    border: none;
+    cursor: pointer;
+   
+}
+
+
+
+.bg-content {
+   width: 100%;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   margin-top: 50px;
+   position: relative;
+}
+.bg-content img {
+    width: 720px;
+
+}
+/* HAMBURGER   */
+.hamburger {
+    display: none;
+  }
+  
+  .bar {
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: rgb(1, 24, 1);
+  }
+
+  .subscribe {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   position: absolute;
+   top: 70%;
+   
+  }
+
+  .bx {
+    color: green;
+    padding: 10px;
+  }
+input {
+    padding: 10px;
+    width: 80%;
+    border: 0;
+}
+
+.sub {
+    height: 4rem;
+    width: 10rem;
+    border-radius: 10px;
+    font-size: 15px;
+    border: 0;
+    background-color: rgb(1, 28, 1);
+    color: white;
+}
+
+label {
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    top: 40%;
+    width: 40rem;
+}
+
